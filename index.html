@@ -1,16 +1,185 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conceptiual Website</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
-    <div class="file-conainer">
-        <div class="file-title"><img src="images/background.png" alt=""></div>
-        <div class="file-section"></div>
-    </div>
-    .
-</body>
-</html>
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.head-container {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: gray;
+    height: 70px;
+    align-items: center;
+
+
+
+}
+
+.head-contant {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.head-contant:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.main-container {
+    background-image: url('../asset/image/background.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.primary {
+    color: red;
+}
+
+.main-title {
+    font-size: 55px;
+    color: white;
+}
+
+.main-des {
+    color: white;
+    width: 700px;
+    font-size: 17px;
+    font-weight: 500px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn-one {
+    padding: 12px 15px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.btn-two {
+    padding: 12px 15px;
+    margin-left: 3px;
+}
+
+.servise-container {
+    background-image: url('../asset/image/footer-bg.png'),
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 9.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    justify-content: space-around;
+}
+
+.left-side-container {
+    text-align: left;
+}
+
+.author-para {
+    width: 50%;
+}
+
+.icon {
+    width: 70px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.first-two-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.author-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.author-profile {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid red;
+    padding: 25px;
+}
+
+.author-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.auth-btn {
+    padding: 10px 15px;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 5px
+}
+
+.about-des {
+    width: 80%;
+    font-weight: 600;
+    font-size: 16px
+}
+
+.phone-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-section {
+    background-image: url('/asset/icons/bg.jpg');
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -70px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.btn-about {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+
+}
